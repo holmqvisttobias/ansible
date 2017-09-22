@@ -1,0 +1,1324 @@
+<?xml version="1.0" encoding="UTF-8" ?><openbox_pipe_menu xmlns="http://openbox.org/"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:schemaLocation="http://openbox.org/" ><menu id="openbox-Information Gathering" label="01 - Information Gathering" icon="/usr/share/icons/hicolor/16x16/apps/kali-info-gathering-trans.png">
+<menu id="openbox-DNS Analysis" label="• DNS Analysis" icon="/usr/share/icons/hicolor/16x16/apps/kali-info-gathering-trans.png">
+<item label="dnsenum" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "dnsenum -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="dnsmap" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "dnsmap;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="dnsrecon" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "dnsrecon -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="dnstracer" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "dnstracer;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="dnswalk" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "dnswalk --help;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="fierce" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "fierce -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="urlcrazy" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "urlcrazy -h;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Firewall Tools" label="• IDS/IPS Identification" icon="/usr/share/icons/hicolor/16x16/apps/kali-info-gathering-trans.png">
+<item label="fragroute" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "fragroute -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="fragrouter" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "fragrouter -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="ftest" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "ftest;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="lbd" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "lbd;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="wafw00f" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "wafw00f -h;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Host Identification" label="• Live Host Identification" icon="/usr/share/icons/hicolor/16x16/apps/kali-info-gathering-trans.png">
+<item label="arping" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "arping;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="cdpsnarf" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "cdpsnarf -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="fping" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "fping -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="hping3" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "hping3 -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="masscan" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "masscan --help;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="miranda" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "miranda -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="ncat" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "ncat -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="thcping6" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "thcping6;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="unicornscan" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "us -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="wol-e" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "wol-e -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="xprobe2" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "xprobe2 -h;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Network and Port Scanners" label="• Network &amp; Port Scanners" icon="/usr/share/icons/hicolor/16x16/apps/kali-info-gathering-trans.png">
+<item label="masscan" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "masscan --help;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="nmap" icon="/usr/share/icons/hicolor/16x16/apps/kali-nmap.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "nmap;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="unicornscan" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "us -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="zenmap" icon="/usr/share/zenmap/pixmaps/zenmap.png"><action name="Execute"><command><![CDATA[sh -c "zenmap;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-OSINT Analysis" label="• OSINT Analysis" icon="/usr/share/icons/hicolor/16x16/apps/kali-info-gathering-trans.png">
+<item label="automater" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "automater -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="casefile" icon="/usr/share/icons/hicolor/16x16/apps/kali-casefile.png"><action name="Execute"><command><![CDATA[sh -c "casefile"]]></command>
+</action></item>
+<item label="maltegoce" icon="/usr/share/icons/hicolor/16x16/apps/kali-maltegoce.png"><action name="Execute"><command><![CDATA[sh -c "maltegoce"]]></command>
+</action></item>
+<item label="theharvester" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "theharvester;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="twofi" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "twofi -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="urlcrazy" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "urlcrazy -h;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Route Analysis" label="• Route Analysis" icon="/usr/share/icons/hicolor/16x16/apps/kali-info-gathering-trans.png">
+<item label="0trace" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "0trace.sh;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="intrace" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "intrace;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="irpas-ass" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "ass -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="irpass-cdp" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "cdp;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="netdiscover" icon="/usr/share/icons/hicolor/16x16/apps/kali-netdiscover.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "netdiscover -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="netmask" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "netmask -h;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-SMB Analysis" label="• SMB Analysis" icon="/usr/share/icons/hicolor/16x16/apps/kali-info-gathering-trans.png">
+<item label="acccheck" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "acccheck;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="enum4linux" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "enum4linux;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="nbtscan" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "nbtscan -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="smbmap" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "smbmap -h;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-SMTP Analysis" label="• SMTP Analysis" icon="/usr/share/icons/hicolor/16x16/apps/kali-info-gathering-trans.png">
+<item label="smtp-user-enum" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "smtp-user-enum -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="swaks" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "swaks --help;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-SNMP Analysis" label="• SNMP Analysis" icon="/usr/share/icons/hicolor/16x16/apps/kali-info-gathering-trans.png">
+<item label="braa" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "braa -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="onesixtyone" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "onesixtyone;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="snmp-check" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "snmp-check -h;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-SSL Analysis" label="• SSL Analysis" icon="/usr/share/icons/hicolor/16x16/apps/kali-info-gathering-trans.png">
+<item label="sslcaudit" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "sslcaudit -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="ssldump" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "ssldump -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="sslh" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "sslh -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="sslscan" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "sslscan;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="sslyze" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "sslyze -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="tlssled" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "tlssled;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<item label="dmitry" icon="/usr/share/icons/hicolor/16x16/apps/kali-dmitry.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "dmitry;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="dnmap-client" icon="/usr/share/icons/hicolor/16x16/apps/kali-dnmap.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "dnmap_client;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="dnmap-server" icon="/usr/share/icons/hicolor/16x16/apps/kali-dnmap.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "dnmap_server;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="ike-scan" icon="/usr/share/icons/hicolor/16x16/apps/kali-ike-skan.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "ike-scan -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="maltegoce" icon="/usr/share/icons/hicolor/16x16/apps/kali-maltegoce.png"><action name="Execute"><command><![CDATA[sh -c "maltegoce"]]></command>
+</action></item>
+<item label="netdiscover" icon="/usr/share/icons/hicolor/16x16/apps/kali-netdiscover.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "netdiscover -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="nmap" icon="/usr/share/icons/hicolor/16x16/apps/kali-nmap.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "nmap;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="p0f" icon="/usr/share/icons/hicolor/16x16/apps/kali-p0f.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "p0f -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="recon-ng" icon="/usr/share/icons/hicolor/16x16/apps/kali-Recon-NG.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "recon-ng"]]></command>
+</action></item>
+<item label="sparta" icon="/usr/share/icons/hicolor/16x16/apps/kali-sparta.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "sparta;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="zenmap" icon="/usr/share/zenmap/pixmaps/zenmap.png"><action name="Execute"><command><![CDATA[sh -c "zenmap;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Vulnerability Analysis" label="02 - Vulnerability Analysis" icon="/usr/share/icons/hicolor/16x16/apps/kali-vuln-assessment-trans.png">
+<menu id="openbox-Cisco Tools" label="• Cisco Tools" icon="/usr/share/icons/hicolor/16x16/apps/kali-vuln-assessment-trans.png">
+<item label="cisco-auditing-tool" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "CAT;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="cisco-global-exploiter" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "cge.pl;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="cisco-ocs" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "cisco-ocs;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="cisco-torch" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "cisco-torch;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="copy-router-config" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "copy-router-config.pl;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="merge-router-config" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "merge-router-config.pl;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="yersinia" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "yersinia --help;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Fuzzing Tools" label="• Fuzzing Tools" icon="/usr/share/icons/hicolor/16x16/apps/kali-vuln-assessment-trans.png">
+<item label="bed" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "bed;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="ohrwurm" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "ohrwurm;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="powerfuzzer" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[sh -c "powerfuzzer;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="sfuzz" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "sfuzz -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="siparmyknife" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "siparmyknife;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="spike-generic_chunked" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "generic_chunked;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="spike-generic_listen_tcp" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "generic_listen_tcp;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="spike-generic_send_tcp" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "generic_send_tcp;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="spike-generic_send_udp" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "generic_send_udp;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Stress Testing" label="• Stress Testing" icon="/usr/share/icons/hicolor/16x16/apps/kali-stress-testing-trans.png">
+<item label="dhcpig" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "pig.py -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="iaxflood" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "iaxflood;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="inviteflood" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "inviteflood -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="siege" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "siege -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="t50" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "t50 --help;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="thc-ssl-dos" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "thc-ssl-dos -h;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-VoIP Tools" label="• VoIP Tools" icon="/usr/share/icons/hicolor/16x16/apps/kali-sniffing-spoofing-trans.png">
+<item label="enumiax" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "enumiax -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="iaxflood" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "iaxflood;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="inviteflood" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "inviteflood -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="ohrwurm" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "ohrwurm;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="protos-sip" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "protos-sip -help;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="rtpbreak" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "rtpbreak -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="rtpflood" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "rtpflood;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="rtpinsertsound" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "rtpinsertsound -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="rtpmixsound" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "rtpmixsound -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="sctpscan" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "sctpscan;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="siparmyknife" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "siparmyknife;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="sipp" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "sipp -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="svcrack" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "svcrack -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="svcrash" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "svcrash -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="svmap" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "svmap -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="svreport" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "svreport -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="svwar" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "svwar -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="voiphopper" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "voiphopper;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<item label="golismero" icon="/usr/share/icons/hicolor/16x16/apps/kali-golismero.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "golismero -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="lynis" icon="/usr/share/icons/hicolor/16x16/apps/kali-lynis.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "lynis -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="nikto" icon="/usr/share/icons/hicolor/16x16/apps/kali-nikto.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "nikto -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="nmap" icon="/usr/share/icons/hicolor/16x16/apps/kali-nmap.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "nmap;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="sparta" icon="/usr/share/icons/hicolor/16x16/apps/kali-sparta.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "sparta;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="unix-privesc-check" icon="/usr/share/icons/hicolor/16x16/apps/kali-unix-privesc-check.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "unix-privesc-check;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Web Application Analysis" label="03 - Web Application Analysis" icon="/usr/share/icons/hicolor/16x16/apps/kali-web-application-trans.png">
+<menu id="openbox-CMS and Site Identification" label="• CMS &amp; Framework Identification" icon="/usr/share/icons/hicolor/16x16/apps/kali-web-application-trans.png">
+<item label="blindelephant" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "BlindElephant.py -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="clusterd" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "clusterd -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="jboss-autopwn-linux" icon="/usr/share/icons/hicolor/16x16/apps/kali-jboss-autopwn.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "jboss-linux;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="jboss-autopwn-win" icon="/usr/share/icons/hicolor/16x16/apps/kali-jboss-autopwn.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "jboss-win;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="joomscan" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "joomscan;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="plecost" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "plecost -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="ua-tester" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "ua-tester;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="wpscan" icon="/usr/share/icons/hicolor/16x16/apps/kali-wpscan.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "wpscan --help;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-WebApp Proxies" label="• Web Application Proxies" icon="/usr/share/icons/hicolor/16x16/apps/kali-web-application-trans.png">
+<item label="burpsuite" icon="/usr/share/icons/hicolor/16x16/apps/kali-burpsuite.png"><action name="Execute"><command><![CDATA[sh -c "java -jar /usr/bin/burpsuite"]]></command>
+</action></item>
+<item label="paros" icon="/usr/share/icons/hicolor/16x16/apps/kali-Paros.png"><action name="Execute"><command><![CDATA[sh -c "paros"]]></command>
+</action></item>
+<item label="proxystrike" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[sh -c "proxystrike"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Web Crawlers" label="• Web Crawlers &amp; Directory Bruteforce" icon="/usr/share/icons/hicolor/16x16/apps/kali-web-application-trans.png">
+<item label="apache-users" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "apache-users;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="cutycapt" icon="/usr/share/icons/hicolor/16x16/apps/kali-cutycapt.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "cutycapt --help;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="dirb" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "dirb;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="dirbuster" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[sh -c "dirbuster;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="uniscan-gui" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[sh -c "uniscan-gui"]]></command>
+</action></item>
+<item label="wfuzz" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "wfuzz;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Web Vulnerability Scanners" label="• Web Vulnerability Scanners" icon="/usr/share/icons/hicolor/16x16/apps/kali-web-application-trans.png">
+<item label="cadaver" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "cadaver;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="clusterd" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "clusterd -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="davtest" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "davtest;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="deblaze" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "deblaze.py -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="fimap" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "fimap -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="golismero" icon="/usr/share/icons/hicolor/16x16/apps/kali-golismero.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "golismero -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="grabber" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "grabber -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="jboss-autopwn-linux" icon="/usr/share/icons/hicolor/16x16/apps/kali-jboss-autopwn.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "jboss-linux;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="jboss-autopwn-win" icon="/usr/share/icons/hicolor/16x16/apps/kali-jboss-autopwn.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "jboss-win;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="joomscan" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "joomscan;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="jSQL Injection" icon="/usr/share/icons/hicolor/16x16/apps/kali-jsql.png"><action name="Execute"><command><![CDATA[sh -c "jsql"]]></command>
+</action></item>
+<item label="nikto" icon="/usr/share/icons/hicolor/16x16/apps/kali-nikto.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "nikto -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="padbuster" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "padbuster;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="powerfuzzer" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[sh -c "powerfuzzer;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="skipfish" icon="/usr/share/icons/hicolor/16x16/apps/kali-skipfish.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "skipfish -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="wapiti" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "wapiti -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="whatweb" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "whatweb -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="wpscan" icon="/usr/share/icons/hicolor/16x16/apps/kali-wpscan.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "wpscan --help;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="xsser" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "xsser -h;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<item label="burpsuite" icon="/usr/share/icons/hicolor/16x16/apps/kali-burpsuite.png"><action name="Execute"><command><![CDATA[sh -c "java -jar /usr/bin/burpsuite"]]></command>
+</action></item>
+<item label="commix" icon="/usr/share/icons/hicolor/16x16/apps/kali-commix.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "commix;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="httrack" icon="/usr/share/icons/hicolor/16x16/apps/kali-sqlmap.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "httrack -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="owasp-zap" icon="/usr/share/icons/hicolor/16x16/apps/kali-zaproxy.png"><action name="Execute"><command><![CDATA[sh -c "zaproxy"]]></command>
+</action></item>
+<item label="paros" icon="/usr/share/icons/hicolor/16x16/apps/kali-Paros.png"><action name="Execute"><command><![CDATA[sh -c "paros"]]></command>
+</action></item>
+<item label="skipfish" icon="/usr/share/icons/hicolor/16x16/apps/kali-skipfish.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "skipfish -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="sqlmap" icon="/usr/share/icons/hicolor/16x16/apps/kali-sqlmap.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "sqlmap -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="webscarab" icon="/usr/share/icons/hicolor/16x16/apps/kali-webscarab.png"><action name="Execute"><command><![CDATA[sh -c "webscarab"]]></command>
+</action></item>
+<item label="wpscan" icon="/usr/share/icons/hicolor/16x16/apps/kali-wpscan.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "wpscan --help;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Database Assessment" label="04 - Database Assessment" icon="/usr/share/icons/hicolor/16x16/apps/kali-vuln-assessment-trans.png">
+<item label="bbqsql" icon="/usr/share/icons/hicolor/16x16/apps/kali-bbqsql.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "bbqsql;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="hexorbase" icon="/usr/share/icons/hicolor/16x16/apps/kali-hexorbase.png"><action name="Execute"><command><![CDATA[sh -c "hexorbase"]]></command>
+</action></item>
+<item label="jSQL Injection" icon="/usr/share/icons/hicolor/16x16/apps/kali-jsql.png"><action name="Execute"><command><![CDATA[sh -c "jsql"]]></command>
+</action></item>
+<item label="mdb-sql" icon="/usr/share/icons/hicolor/16x16/apps/kali-mdb-sql.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "mdb-sql -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="oscanner" icon="/usr/share/icons/hicolor/16x16/apps/kali-oscanner.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "oscanner;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="sidguesser" icon="/usr/share/icons/hicolor/16x16/apps/kali-sidguesser.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "sidguess;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="sqldict" icon="/usr/share/icons/hicolor/16x16/apps/kali-sqldict.png"><action name="Execute"><command><![CDATA[sh -c "sqldict"]]></command>
+</action></item>
+<item label="SQLite database browser" icon="/usr/share/icons/hicolor/256x256/apps/sqlitebrowser.png"><action name="Execute"><command><![CDATA[sqlitebrowser]]></command>
+</action></item>
+<item label="sqlmap" icon="/usr/share/icons/hicolor/16x16/apps/kali-sqlmap.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "sqlmap -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="sqlninja" icon="/usr/share/icons/hicolor/16x16/apps/kali-sqlninja.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "sqlninja;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="sqlsus" icon="/usr/share/icons/hicolor/16x16/apps/kali-sqlsus.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "sqlsus -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="tnscmd10g" icon="/usr/share/icons/hicolor/16x16/apps/kali-tnscmd10g.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "tnscmd10g;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Password Attacks" label="05 - Password Attacks" icon="/usr/share/icons/hicolor/16x16/apps/kali-password-attacks-trans.png">
+<menu id="openbox-Offline Attacks" label="• Offline Attacks" icon="/usr/share/icons/hicolor/16x16/apps/kali-password-attacks-trans.png">
+<item label="cachedump" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "cachedump -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="chntpw" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "chntpw -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="cmospwd" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "cmospwd;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="fcrackzip" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "fcrackzip --help;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="hashcat" icon="/usr/share/icons/hicolor/16x16/apps/kali-hashcat.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "hashcat --help;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="hashid" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "hashid -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="hash-identifier" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "hash-identifier;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="johnny" icon="/usr/share/icons/hicolor/16x16/apps/kali-johnny.png"><action name="Execute"><command><![CDATA[sh -c "johnny;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="lsadump" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "lsadump -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="ophcrack-cli" icon="/usr/share/icons/hicolor/16x16/apps/kali-ophcrack.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "ophcrack-cli;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="pwdump" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "pwdump -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="rainbowcrack" icon="/usr/share/icons/hicolor/16x16/apps/kali-rainbowcrack.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "rcrack;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="rcracki_mt" icon="/usr/share/icons/hicolor/16x16/apps/kali-rcracki_mt.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "rcracki_mt;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="samdump2" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "samdump2 -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="sipcrack" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "sipcrack -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="sucrack" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "man sucrack;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="truecrack" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "truecrack -h;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Online Attacks" label="• Online Attacks" icon="/usr/share/icons/hicolor/16x16/apps/kali-password-attacks-trans.png">
+<item label="acccheck" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "acccheck;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="cisco-auditing-tool" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "CAT;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="findmyhash" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "findmyhash;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="hydra" icon="/usr/share/icons/hicolor/16x16/apps/kali-hydra.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "hydra -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="hydra-gtk" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[sh -c "xhydra"]]></command>
+</action></item>
+<item label="keimpx" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "keimpx -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="onesixtyone" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "onesixtyone;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="patator" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "patator -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="thc-pptp-bruter" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "thc-pptp-bruter;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Passing the Hash" label="• Passing the Hash tools" icon="/usr/share/icons/hicolor/16x16/apps/kali-password-attacks-trans.png">
+<item label="mimikatz" icon="/usr/share/icons/hicolor/16x16/apps/kali-mimikatz.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "cd /usr/share/mimikatz/ && ls -l;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="pth-curl" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "pth-curl -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="pth-net" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "pth-net help;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="pth-openchangeclient" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "pth-openchangeclient --help;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="pth-rpcclient" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "pth-rpcclient -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="pth-smbclient" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "pth-smbclient -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="pth-smbget" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "pth-smbget --help;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="pth-sqsh" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "pth-sqsh --help;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="pth-winexe" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "pth-winexe -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="pth-wmic" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "pth-wmic -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="pth-wmis" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "pth-wmis -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="smbmap" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "smbmap -h;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Password Profiling" label="• Password Profiling &amp; Wordlists" icon="/usr/share/icons/hicolor/16x16/apps/kali-password-attacks-trans.png">
+<item label="cewl" icon="/usr/share/icons/hicolor/16x16/apps/kali-cewl.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "cewl --help;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="crunch" icon="/usr/share/icons/hicolor/16x16/apps/kali-crunch.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "crunch;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="maskgen" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "maskgen -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="policygen" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "policygen -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="rsmangler" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "rsmangler -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="statsgen" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "statsgen -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="wordlists" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "cd /usr/share/wordlists && ls -l;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<item label="cewl" icon="/usr/share/icons/hicolor/16x16/apps/kali-cewl.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "cewl --help;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="crunch" icon="/usr/share/icons/hicolor/16x16/apps/kali-crunch.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "crunch;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="hashcat" icon="/usr/share/icons/hicolor/16x16/apps/kali-hashcat.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "hashcat --help;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="john" icon="/usr/share/icons/hicolor/16x16/apps/kali-john.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "john;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="johnny" icon="/usr/share/icons/hicolor/16x16/apps/kali-johnny.png"><action name="Execute"><command><![CDATA[sh -c "johnny;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="medusa" icon="/usr/share/icons/hicolor/16x16/apps/kali-medusa.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "medusa -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="ncrack" icon="/usr/share/icons/hicolor/16x16/apps/kali-ncrack.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "ncrack -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="ophcrack" icon="/usr/share/icons/hicolor/16x16/apps/kali-ophcrack.png"><action name="Execute"><command><![CDATA[sh -c "ophcrack"]]></command>
+</action></item>
+<item label="pyrit" icon="/usr/share/icons/hicolor/16x16/apps/kali-pyrit.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "pyrit -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="rainbowcrack" icon="/usr/share/icons/hicolor/16x16/apps/kali-rainbowcrack.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "rcrack;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="rcracki_mt" icon="/usr/share/icons/hicolor/16x16/apps/kali-rcracki_mt.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "rcracki_mt;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="wordlists" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "cd /usr/share/wordlists && ls -l;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Wireless Attacks" label="06 - Wireless Attacks" icon="/usr/share/icons/hicolor/16x16/apps/kali-wireless-attacks-trans.png">
+<menu id="openbox-802.11 Wireless Analysis" label="• 802.11 Wireless Tools" icon="/usr/share/icons/hicolor/16x16/apps/kali-wireless-attacks-trans.png">
+<item label="asleap" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "asleap -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="bully" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "bully;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="cowpatty" icon="/usr/share/icons/hicolor/16x16/apps/kali-cowpatty.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "cowpatty;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="eapmd5pass" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "eapmd5pass -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="fern wifi cracker" icon="/usr/share/icons/hicolor/16x16/apps/kali-fern-wifi-cracker.png"><action name="Execute"><command><![CDATA[sh -c "fern-wifi-cracker"]]></command>
+</action></item>
+<item label="giskismet" icon="/usr/share/icons/hicolor/16x16/apps/kali-kismet.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "giskismet -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="wifiarp" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "wifiarp -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="wifidns" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "wifidns -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="wifi-honey" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "wifi-honey -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="wifiping" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "wifiping -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="wifitap" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "wifitap -h;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Bluetooth Tools" label="• Bluetooth Tools" icon="/usr/share/icons/hicolor/16x16/apps/kali-wireless-attacks-trans.png">
+<item label="bluelog" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "bluelog -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="blueranger" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "blueranger.sh;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="bluesnarfer" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "bluesnarfer;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="btscanner" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "btscanner -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="redfang" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "fang -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="spooftooph" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "spooftooph -h;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Other Wireless Tools" label="• Other Wireless Tools" icon="/usr/share/icons/hicolor/16x16/apps/kali-wireless-attacks-trans.png">
+<item label="hackrf_info" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "hackrf_info -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="zbassocflood" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "zbassocflood -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="zbdsniff" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "zbdsniff;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="zbdump" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "zbdump -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="zbfind" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[sh -c "zbfind"]]></command>
+</action></item>
+<item label="zbgoodfind" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "zbgoodfind -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="zbreplay" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "zbreplay -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="zbstumbler" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "zbstumbler -h;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-RFID NFC Tools" label="• RFID &amp; NFC Tools" icon="/usr/share/icons/hicolor/16x16/apps/kali-wireless-attacks-trans.png">
+<item label="mfcuk" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "mfcuk -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="mfoc" icon="/usr/share/icons/hicolor/16x16/apps/kali-mfoc.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "mfoc -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="mfterm" icon="/usr/share/icons/hicolor/16x16/apps/kali-mfterm.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "mfterm -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="mifare-classic-format" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "mifare-classic-format -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="nfc-list" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "nfc-list -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="nfc-mfclassic" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "nfc-mfclassic -h;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Software Defined Radio" label="• Software Defined Radio" icon="/usr/share/icons/hicolor/16x16/apps/kali-wireless-attacks-trans.png">
+<item label="chirp" icon="/usr/share/pixmaps/chirp.png"><action name="Execute"><command><![CDATA[chirpw]]></command>
+</action></item>
+</menu>
+<item label="aircrack-ng" icon="/usr/share/icons/hicolor/16x16/apps/kali-aircrack.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "aircrack-ng --help;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="chirp" icon="/usr/share/pixmaps/chirp.png"><action name="Execute"><command><![CDATA[chirpw]]></command>
+</action></item>
+<item label="cowpatty" icon="/usr/share/icons/hicolor/16x16/apps/kali-cowpatty.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "cowpatty;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="fern wifi cracker" icon="/usr/share/icons/hicolor/16x16/apps/kali-fern-wifi-cracker.png"><action name="Execute"><command><![CDATA[sh -c "fern-wifi-cracker"]]></command>
+</action></item>
+<item label="ghost phisher" icon="/usr/share/icons/hicolor/16x16/apps/kali-ghost-phisher.png"><action name="Execute"><command><![CDATA[sh -c "ghost-phisher"]]></command>
+</action></item>
+<item label="giskismet" icon="/usr/share/icons/hicolor/16x16/apps/kali-kismet.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "giskismet -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="kismet" icon="/usr/share/icons/hicolor/16x16/apps/kali-kismet.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "kismet -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="mdk3" icon="/usr/share/icons/hicolor/16x16/apps/kali-mdk3.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "mdk3 --help;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="mfoc" icon="/usr/share/icons/hicolor/16x16/apps/kali-mfoc.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "mfoc -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="mfterm" icon="/usr/share/icons/hicolor/16x16/apps/kali-mfterm.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "mfterm -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="pixiewps" icon="/usr/share/icons/hicolor/16x16/apps/kali-pixiewps.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "pixiewps -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="reaver" icon="/usr/share/icons/hicolor/16x16/apps/kali-reaver.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "reaver -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="wifite" icon="/usr/share/icons/hicolor/16x16/apps/kali-wifite.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "wifite --help;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Reverse Engineering" label="07 - Reverse Engineering" icon="/usr/share/icons/hicolor/16x16/apps/kali-reverse-engineering-trans.png">
+<item label="apktool" icon="/usr/share/icons/hicolor/16x16/apps/kali-apktool.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "apktool;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="clang" icon="/usr/share/icons/hicolor/16x16/apps/kali-clang.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "clang --help;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="clang++" icon="/usr/share/icons/hicolor/16x16/apps/kali-clang.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "clang++ --help;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="dex2jar" icon="/usr/share/icons/hicolor/16x16/apps/kali-dex2jar.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "d2j-dex2jar -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="edb-debugger" icon="/usr/share/icons/hicolor/16x16/apps/kali-edb-debugger.png"><action name="Execute"><command><![CDATA[sh -c "edb;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="flasm" icon="/usr/share/icons/hicolor/16x16/apps/kali-flasm.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "flasm;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="jad" icon="/usr/share/icons/hicolor/16x16/apps/kali-jad.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "jad;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="javasnoop" icon="/usr/share/icons/hicolor/16x16/apps/kali-javasnoop.png"><action name="Execute"><command><![CDATA[sh -c "javasnoop"]]></command>
+</action></item>
+<item label="NASM shell" icon="/usr/share/icons/hicolor/16x16/apps/kali-metasploit.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "cd /usr/share/metasploit-framework/tools/exploit && ./nasm_shell.rb;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="ollydbg" icon="/usr/share/icons/hicolor/16x16/apps/kali-ollydbg.png"><action name="Execute"><command><![CDATA[sh -c "ollydbg"]]></command>
+</action></item>
+<item label="radare2" icon="/usr/share/icons/hicolor/16x16/apps/kali-radare2.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "radare2 -h;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Exploit Frameworks" label="08 - Exploitation Tools" icon="/usr/share/icons/hicolor/16x16/apps/kali-exploitation-tools-trans.png">
+<item label="armitage" icon="/usr/share/icons/hicolor/16x16/apps/kali-armitage.png"><action name="Execute"><command><![CDATA[sh -c "armitage;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="beef xss framework" icon="/usr/share/icons/hicolor/16x16/apps/kali-beef.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "beef-xss;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="metasploit framework" icon="/usr/share/icons/hicolor/16x16/apps/kali-metasploit.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "service postgresql start && msfdb init && msfconsole;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="msf payload creator" icon="/usr/share/icons/hicolor/16x16/apps/kali-mpc.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "msfpc;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="searchsploit" icon="/usr/share/icons/hicolor/16x16/apps/kali-searchsploit.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "searchsploit;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="social engineering toolkit" icon="/usr/share/icons/hicolor/16x16/apps/kali-set.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "setoolkit;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="sqlmap" icon="/usr/share/icons/hicolor/16x16/apps/kali-sqlmap.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "sqlmap -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="termineter" icon="/usr/share/icons/hicolor/16x16/apps/kali-termineter.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "termineter -h;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Sniffing - Spoofing" label="09 - Sniffing &amp; Spoofing" icon="/usr/share/icons/hicolor/16x16/apps/kali-sniffing-spoofing-trans.png">
+<menu id="openbox-Network Sniffers" label="• Network Sniffers" icon="/usr/share/icons/hicolor/16x16/apps/kali-sniffing-spoofing-trans.png">
+<item label="darkstat" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "darkstat;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="dnschef" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "dnschef -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="dsniff" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "dsniff -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="hexinject" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "hexinject -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="netsniff-ng" icon="/usr/share/icons/hicolor/16x16/apps/kali-netsniff-ng.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "netsniff-ng -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="nfspy" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "nfspy -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="sslsniff" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "sslsniff;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="tcpflow" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "tcpflow -h;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Network Spoofing" label="• Spoofing and MITM" icon="/usr/share/icons/hicolor/16x16/apps/kali-sniffing-spoofing-trans.png">
+<item label="dnschef" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "dnschef -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="fiked" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "fiked -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="nfspy" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "nfspy -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="rebind" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "dns-rebind;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="sniffjoke" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "sniffjoke --help;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="sslsplit" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "sslsplit -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="sslstrip" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "sslstrip -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="tcpreplay" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "tcpreplay -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="wifi-honey" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "wifi-honey -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="yersinia" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "yersinia --help;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<item label="bdfproxy" icon="/usr/share/icons/hicolor/16x16/apps/kali-bdfproxy.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "bdfproxy;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="driftnet" icon="/usr/share/icons/hicolor/16x16/apps/kali-driftnet.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "driftnet -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="ettercap-graphical" icon="/usr/share/icons/hicolor/16x16/apps/kali-ettercap.png"><action name="Execute"><command><![CDATA[sh -c "ettercap -G"]]></command>
+</action></item>
+<item label="hamster" icon="/usr/share/icons/hicolor/16x16/apps/kali-hamster.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "hamster;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="macchanger" icon="/usr/share/icons/hicolor/16x16/apps/kali-macchanger.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "macchanger -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="mitmproxy" icon="/usr/share/icons/hicolor/16x16/apps/kali-mitmproxy.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "mitmproxy -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="netsniff-ng" icon="/usr/share/icons/hicolor/16x16/apps/kali-netsniff-ng.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "netsniff-ng -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="responder" icon="/usr/share/icons/hicolor/16x16/apps/kali-responder.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "responder -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="wireshark" icon="/usr/share/icons/hicolor/16x16/apps/kali-wireshark.png"><action name="Execute"><command><![CDATA[sh -c "wireshark"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Maintaining Access" label="10 - Post Exploitation" icon="/usr/share/icons/hicolor/16x16/apps/kali-maintaining-access-trans.png">
+<menu id="openbox-OS Backdoors" label="• OS Backdoors" icon="/usr/share/icons/hicolor/16x16/apps/kali-maintaining-access-trans.png">
+<item label="cymothoa" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "cymothoa -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="dbd" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "dbd -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="intersect" icon="/usr/share/icons/hicolor/16x16/apps/kali-intersect.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "intersect;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="powersploit" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "cd /usr/share/powersploit/ && ls -l;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="sbd" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "sbd -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="u3-pwn" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "u3-pwn;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Tunneling" label="• Tunneling &amp; Exfiltration" icon="/usr/share/icons/hicolor/16x16/apps/kali-maintaining-access-trans.png">
+<item label="dbd" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "dbd -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="dns2tcpc" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "dns2tcpc;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="dns2tcpd" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "dns2tcpd;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="exe2hex" icon="/usr/share/icons/hicolor/16x16/apps/kali-exe2hex.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "exe2hex;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="iodine" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "iodine-client-start -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="miredo" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "miredo -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="proxychains" icon="/usr/share/icons/hicolor/16x16/apps/kali-proxychains.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "proxychains;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="proxytunnel" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "proxytunnel -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="ptunnel" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "ptunnel -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="pwnat" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "pwnat -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="sslh" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "sslh -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="stunnel4" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "stunnel4 -help;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="udptunnel" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "udptunnel -h;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Web Backdoors" label="• Web Backdoors" icon="/usr/share/icons/hicolor/16x16/apps/kali-maintaining-access-trans.png">
+<item label="laudanum" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "ls -l /usr/share/laudanum;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="nishang" icon="/usr/share/icons/hicolor/16x16/apps/kali-nishang.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "cd /usr/share/nishang && ls -l;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="webacoo" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "webacoo -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="weevely" icon="/usr/share/icons/hicolor/16x16/apps/kali-weevely.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "weevely;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<item label="backdoor-factory" icon="/usr/share/icons/hicolor/16x16/apps/kali-backdoor-factory.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "backdoor-factory -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="bdfproxy" icon="/usr/share/icons/hicolor/16x16/apps/kali-bdfproxy.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "bdfproxy;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="exe2hex" icon="/usr/share/icons/hicolor/16x16/apps/kali-exe2hex.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "exe2hex;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="intersect" icon="/usr/share/icons/hicolor/16x16/apps/kali-intersect.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "intersect;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="mimikatz" icon="/usr/share/icons/hicolor/16x16/apps/kali-mimikatz.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "cd /usr/share/mimikatz/ && ls -l;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="nishang" icon="/usr/share/icons/hicolor/16x16/apps/kali-nishang.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "cd /usr/share/nishang && ls -l;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="powersploit" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "cd /usr/share/powersploit/ && ls -l;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="proxychains" icon="/usr/share/icons/hicolor/16x16/apps/kali-proxychains.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "proxychains;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="weevely" icon="/usr/share/icons/hicolor/16x16/apps/kali-weevely.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "weevely;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Forensic Tools" label="11 - Forensics" icon="/usr/share/icons/hicolor/16x16/apps/kali-forensics-trans.png">
+<menu id="openbox-Digital Forensics" label="• Digital Forensics" icon="/usr/share/icons/hicolor/16x16/apps/kali-forensics-trans.png">
+<item label="dc3dd" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "dc3dd --help;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="dcfldd" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "dcfldd --help;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="extundelete" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "extundelete --help;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="missidentify" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "missidentify -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="pdgmail" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "pdgmail -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="readpst" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "readpst -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="reglookup" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "reglookup;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="regripper" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[sh -c "regripper"]]></command>
+</action></item>
+<item label="vinetto" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "vinetto -h;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Forensic Carving Tools" label="• Forensic Carving Tools" icon="/usr/share/icons/hicolor/16x16/apps/kali-forensics-trans.png">
+<item label="foremost" icon="/usr/share/icons/hicolor/16x16/apps/kali-foremost.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "foremost -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="magicrescue" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "magicrescue;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="pasco" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "pasco;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="pev" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "pev -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="recoverjpeg" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "recoverjpeg -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="rifiuti" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "rifiuti;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="rifiuti2" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "rifiuti2 -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="safecopy" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "safecopy -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="scalpel" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "scalpel -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="scrounge-ntfs" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "scrounge-ntfs -h;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Forensic Imaging Tools" label="• Forensic Imaging Tools" icon="/usr/share/icons/hicolor/16x16/apps/kali-forensics-trans.png">
+<item label="affcat" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "affcat -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="dc3dd" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "dc3dd --help;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="dcfldd" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "dcfldd --help;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="ddrescue" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "dd_rescue -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="ewfacquire" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "ewfacquire -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="guymager" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[sh -c "guymager"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-PDF Forensics Tools" label="• PDF Forensics Tools" icon="/usr/share/icons/hicolor/16x16/apps/kali-forensics-trans.png">
+<item label="pdfid" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "pdfid -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="pdf-parser" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "pdf-parser -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="peepdf" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "peepdf -h;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Forensics Analysis Suites" label="• Sleuth Kit Suite" icon="/usr/share/icons/hicolor/16x16/apps/kali-forensics-trans.png">
+<item label="autopsy" icon="/usr/share/icons/hicolor/16x16/apps/kali-autopsy.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "autopsy;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="blkcalc" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "blkcalc;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="blkcat" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "blkcat;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="blkls" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "blkls;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="blkstat" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "blkstat;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="ffind" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "ffind;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="fls" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "fls;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="fsstat" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "fsstat;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="hfind" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "hfind;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="icat-sleuthkit" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "icat;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="ifind" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "ifind;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="ils-sleuthkit" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "ils;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="img_cat" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "img_cat;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="img_stat" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "img_stat;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="istat" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "istat;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="jcat" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "jcat;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="jls" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "jls;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="mactime-sleuthkit" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "mactime;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="mmcat" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "mmcat;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="mmls" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "mmls;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="mmstat" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "mmstat;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="sigfind" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "sigfind;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="sorter" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "sorter;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="srch_strings" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "srch_strings -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="tsk_comparedir" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "tsk_comparedir;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="tsk_gettimes" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "tsk_gettimes -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="tsk_loaddb" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "tsk_loaddb;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="tsk_recover" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "tsk_recover;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<item label="autopsy" icon="/usr/share/icons/hicolor/16x16/apps/kali-autopsy.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "autopsy;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="binwalk" icon="/usr/share/icons/hicolor/16x16/apps/kali-binwalk.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "binwalk -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="bulk_extractor" icon="/usr/share/icons/hicolor/16x16/apps/kali-bulk_extractor.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "bulk_extractor -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="chkrootkit" icon="/usr/share/icons/hicolor/16x16/apps/kali-chkrootkit.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "chkrootkit -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="foremost" icon="/usr/share/icons/hicolor/16x16/apps/kali-foremost.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "foremost -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="galleta" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "galleta;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="hashdeep" icon="/usr/share/icons/hicolor/16x16/apps/kali-hashdeep.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "hashdeep -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="volafox" icon="/usr/share/icons/hicolor/16x16/apps/kali-volafox.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "volafox;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="volatility" icon="/usr/share/icons/hicolor/16x16/apps/kali-volatility.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "volatility -h;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Reporting Tools" label="12 - Reporting Tools" icon="/usr/share/icons/hicolor/16x16/apps/kali-reporting-tools-trans.png">
+<item label="casefile" icon="/usr/share/icons/hicolor/16x16/apps/kali-casefile.png"><action name="Execute"><command><![CDATA[sh -c "casefile"]]></command>
+</action></item>
+<item label="cutycapt" icon="/usr/share/icons/hicolor/16x16/apps/kali-cutycapt.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "cutycapt --help;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="dradis" icon="/usr/share/icons/hicolor/16x16/apps/kali-dradis.png"><action name="Execute"><command><![CDATA[sh -c "service dradis start; xdg-open http://127.0.0.1:3000"]]></command>
+</action></item>
+<item label="faraday IDE" icon="/usr/share/icons/hicolor/16x16/apps/kali-faraday.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "python-faraday;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="keepnote" icon="/usr/share/icons/hicolor/48x48/apps/keepnote.png"><action name="Execute"><command><![CDATA[sh -c "keepnote"]]></command>
+</action></item>
+<item label="magictree" icon="/usr/share/icons/hicolor/16x16/apps/kali-magictree.png"><action name="Execute"><command><![CDATA[sh -c "magictree"]]></command>
+</action></item>
+<item label="pipal" icon="/usr/share/icons/hicolor/16x16/apps/kali-pipal.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "pipal -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="recordmydesktop" icon="/usr/share/icons/hicolor/16x16/apps/kali-recordmydesktop.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "recordmydesktop -h;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Social Engineering Tools" label="13 - Social Engineering Tools " icon="/usr/share/icons/hicolor/16x16/apps/kali-maintaining-access-trans.png">
+<item label="backdoor-factory" icon="/usr/share/icons/hicolor/16x16/apps/kali-backdoor-factory.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "backdoor-factory -h;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="beef xss framework" icon="/usr/share/icons/hicolor/16x16/apps/kali-beef.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "beef-xss;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="ghost phisher" icon="/usr/share/icons/hicolor/16x16/apps/kali-ghost-phisher.png"><action name="Execute"><command><![CDATA[sh -c "ghost-phisher"]]></command>
+</action></item>
+<item label="maltegoce" icon="/usr/share/icons/hicolor/16x16/apps/kali-maltegoce.png"><action name="Execute"><command><![CDATA[sh -c "maltegoce"]]></command>
+</action></item>
+<item label="msf payload creator" icon="/usr/share/icons/hicolor/16x16/apps/kali-mpc.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "msfpc;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="social engineering toolkit" icon="/usr/share/icons/hicolor/16x16/apps/kali-set.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "setoolkit;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="u3-pwn" icon="/usr/share/icons/hicolor/16x16/apps/kali-menu.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "u3-pwn;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-System Services" label="14 - System Services" icon="/usr/share/icons/hicolor/16x16/apps/kali-system-services-trans.png">
+<menu id="openbox-BEEF XSS Framework" label="• BeEF" icon="/usr/share/icons/hicolor/16x16/apps/kali-system-services-trans.png">
+<item label="beef start" icon="/usr/share/icons/hicolor/16x16/apps/kali-beef.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "service beef-xss start;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="beef stop" icon="/usr/share/icons/hicolor/16x16/apps/kali-beef.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "service beef-xss stop;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Dradis" label="• Dradis" icon="/usr/share/icons/hicolor/16x16/apps/kali-system-services-trans.png">
+<item label="dradis start" icon="/usr/share/icons/hicolor/16x16/apps/kali-dradis.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "service dradis start;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="dradis stop" icon="/usr/share/icons/hicolor/16x16/apps/kali-dradis.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "service dradis stop;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<item label="beef start" icon="/usr/share/icons/hicolor/16x16/apps/kali-beef.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "service beef-xss start;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="beef stop" icon="/usr/share/icons/hicolor/16x16/apps/kali-beef.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "service beef-xss stop;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="dradis start" icon="/usr/share/icons/hicolor/16x16/apps/kali-dradis.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "service dradis start;${SHELL:-bash}"]]></command>
+</action></item>
+<item label="dradis stop" icon="/usr/share/icons/hicolor/16x16/apps/kali-dradis.png"><action name="Execute"><command><![CDATA[xterm -e sh -c "service dradis stop;${SHELL:-bash}"]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Debian" label="Debian" icon="/usr/share/pixmaps/debian-logo.png">
+<menu id="openbox-Applications" label="Applications" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png">
+<menu id="openbox-Accessibility" label="Accessibility" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png">
+<item label="Xmag" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[xmag]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Data Management" label="Data Management" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png">
+<item label="Innotop" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[xterm -e /usr/bin/innotop]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Editors" label="Editors" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png">
+<item label="Xedit" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[xedit]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Emulators" label="Emulators" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png">
+<item label="VirtualBox" icon="/usr/share/pixmaps/virtualbox.xpm"><action name="Execute"><command><![CDATA[/usr/bin/virtualbox]]></command>
+</action></item>
+</menu>
+<menu id="openbox-File Management" label="File Management" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png">
+<item label="Xarchiver" icon="/usr/share/pixmaps/xarchiver.xpm"><action name="Execute"><command><![CDATA[/usr/bin/xarchiver]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Graphics" label="Graphics" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png">
+<item label="X Window Snapshot" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[xwd | xwud]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Network" label="Network" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png">
+<menu id="openbox-Communication" label="Communication" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png">
+<item label="Manhole Twisted Client" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[/usr/bin/manhole]]></command>
+</action></item>
+<item label="Minicom" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[xterm -e /usr/bin/minicom]]></command>
+</action></item>
+<item label="Minicom (X11)" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[/usr/bin/xminicom]]></command>
+</action></item>
+<item label="Telnet" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[xterm -e /usr/bin/telnet.netkit]]></command>
+</action></item>
+<item label="Twisted Application Generator" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[/usr/bin/tkmktap]]></command>
+</action></item>
+<item label="Xbiff" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[xbiff]]></command>
+</action></item>
+<item label="xtightvncviewer" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[/usr/bin/xtightvncviewer]]></command>
+</action></item>
+</menu>
+<menu id="openbox-File Transfer" label="File Transfer" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png">
+<item label="cadaver" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[xterm -e /usr/bin/cadaver]]></command>
+</action></item>
+<item label="Deluge BitTorrent Client" icon="/usr/share/pixmaps/deluge.xpm"><action name="Execute"><command><![CDATA[/usr/bin/deluge]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Monitoring" label="Monitoring" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png">
+<item label="btscanner" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[xterm -e /usr/bin/btscanner]]></command>
+</action></item>
+<item label="Driftnet" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[/usr/bin/driftnet]]></command>
+</action></item>
+<item label="ettercap (as root)" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[ettercap-pkexec -G]]></command>
+</action></item>
+</menu>
+</menu>
+<menu id="openbox-Programming" label="Programming" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png">
+<item label="Erlang Shell" icon="/usr/share/pixmaps/erlang.xpm"><action name="Execute"><command><![CDATA[xterm -e /usr/bin/erl]]></command>
+</action></item>
+<item label="GDB" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[xterm -e /usr/bin/gdb]]></command>
+</action></item>
+<item label="Tclsh8.6" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[xterm -e /usr/bin/tclsh8.6]]></command>
+</action></item>
+<item label="TkWish8.5" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[x-terminal-emulator -e /usr/bin/wish8.5]]></command>
+</action></item>
+<item label="TkWish8.6" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[x-terminal-emulator -e /usr/bin/wish8.6]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Science" label="Science" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png">
+<menu id="openbox-Mathematics" label="Mathematics" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png">
+<item label="galculator" icon="/usr/share/pixmaps/galculator.xpm"><action name="Execute"><command><![CDATA[/usr/bin/galculator]]></command>
+</action></item>
+<item label="Xcalc" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[xcalc]]></command>
+</action></item>
+</menu>
+</menu>
+<menu id="openbox-Shells" label="Shells" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png">
+<item label="Bash" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[xterm -e /bin/bash --login]]></command>
+</action></item>
+<item label="Dash" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[xterm -e /bin/dash -i]]></command>
+</action></item>
+<item label="Sh" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[xterm -e /bin/sh --login]]></command>
+</action></item>
+<item label="Zsh" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[xterm -e /bin/zsh]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Sound" label="Sound" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png">
+<item label="pavucontrol" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[/usr/bin/pavucontrol]]></command>
+</action></item>
+</menu>
+<menu id="openbox-System" label="System" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png">
+<menu id="openbox-Administration" label="Administration" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png">
+<item label="About Myself" icon="/usr/share/pixmaps/user_icon.xpm"><action name="Execute"><command><![CDATA[/usr/bin/userinfo]]></command>
+</action></item>
+<item label="Debian Task selector" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[xterm -e su-to-root -c tasksel]]></command>
+</action></item>
+<item label="Disk Management" icon="/usr/share/pixmaps/disks.xpm"><action name="Execute"><command><![CDATA[/usr/bin/usermount]]></command>
+</action></item>
+<item label="Editres" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[editres]]></command>
+</action></item>
+<item label="GNOME partition editor" icon="/usr/share/pixmaps/gparted.xpm"><action name="Execute"><command><![CDATA[su-to-root -X -c /usr/sbin/gparted]]></command>
+</action></item>
+<item label="Openbox Menu Editor" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[/usr/bin/obmenu]]></command>
+</action></item>
+<item label="Password" icon="/usr/share/pixmaps/password.xpm"><action name="Execute"><command><![CDATA[/usr/bin/userpasswd]]></command>
+</action></item>
+<item label="Xclipboard" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[xclipboard]]></command>
+</action></item>
+<item label="Xfontsel" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[xfontsel]]></command>
+</action></item>
+<item label="Xkill" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[xkill]]></command>
+</action></item>
+<item label="Xrefresh" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[xrefresh]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Hardware" label="Hardware" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png">
+<item label="Xvidtune" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[xvidtune]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Monitoring" label="Monitoring" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png">
+<item label="Pstree" icon="/usr/share/pixmaps/pstree16.xpm"><action name="Execute"><command><![CDATA[xterm -e /usr/bin/pstree.x11]]></command>
+</action></item>
+<item label="Top" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[xterm -e /usr/bin/top]]></command>
+</action></item>
+<item label="Xconsole" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[xconsole -file /dev/xconsole]]></command>
+</action></item>
+<item label="Xev" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[x-terminal-emulator -e xev]]></command>
+</action></item>
+<item label="Xload" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[xload]]></command>
+</action></item>
+</menu>
+</menu>
+<menu id="openbox-Terminal Emulators" label="Terminal Emulators" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png">
+<item label="X-Terminal as root (GKsu)" icon="/usr/share/pixmaps/gksu-debian.xpm"><action name="Execute"><command><![CDATA[/usr/bin/gksu -u root /usr/bin/x-terminal-emulator]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Text" label="Text" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png">
+<item label="ClipIt" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[/usr/bin/clipit]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Viewers" label="Viewers" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png">
+<item label="Xditview" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[xditview]]></command>
+</action></item>
+</menu>
+</menu>
+<menu id="openbox-Games" label="Games" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png">
+<menu id="openbox-Toys" label="Toys" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png">
+<item label="Oclock" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[oclock]]></command>
+</action></item>
+<item label="Xclock (analog)" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[xclock -analog]]></command>
+</action></item>
+<item label="Xclock (digital)" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[xclock -digital -update 1]]></command>
+</action></item>
+<item label="Xeyes" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[xeyes]]></command>
+</action></item>
+<item label="Xlogo" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[xlogo]]></command>
+</action></item>
+</menu>
+</menu>
+<menu id="openbox-Help" label="Help" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png">
+<item label="Xman" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[xman]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Screen" label="Screen" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png">
+<menu id="openbox-Locking" label="Locking" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png">
+<item label="Lock Screen (XScreenSaver)" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[/usr/bin/xscreensaver-command -lock]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Saving" label="Saving" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png">
+<item label="Activate ScreenSaver (Next)" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[/usr/bin/xscreensaver-command -next]]></command>
+</action></item>
+<item label="Activate ScreenSaver (Previous)" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[/usr/bin/xscreensaver-command -prev]]></command>
+</action></item>
+<item label="Activate ScreenSaver (Random)" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[/usr/bin/xscreensaver-command -activate]]></command>
+</action></item>
+<item label="Demo Screen Hacks" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[/usr/bin/xscreensaver-command -demo]]></command>
+</action></item>
+<item label="Disable XScreenSaver" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[/usr/bin/xscreensaver-command -exit]]></command>
+</action></item>
+<item label="Enable XScreenSaver" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[/usr/bin/xscreensaver]]></command>
+</action></item>
+<item label="Reinitialize XScreenSaver" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[/usr/bin/xscreensaver-command -restart]]></command>
+</action></item>
+<item label="ScreenSaver Preferences" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[/usr/bin/xscreensaver-command -prefs]]></command>
+</action></item>
+</menu>
+</menu>
+</menu>
+<menu id="openbox-Usual Applications" label="Usual applications" icon="/usr/share/icons/gnome/16x16/categories/applications-other.png">
+<menu id="openbox-Accessories" label="Accessories" icon="/usr/share/icons/nuoveXT2/16x16/categories/applications-accessories.png">
+<item label="Atom" icon="/usr/share/pixmaps/atom.png"><action name="Execute"><command><![CDATA[/usr/share/atom/atom]]></command>
+</action></item>
+<item label="Character Map" icon="/usr/share/icons/gnome/16x16/apps/accessories-character-map.png"><action name="Execute"><command><![CDATA[gucharmap]]></command>
+</action></item>
+<item label="ClipIt" icon="/usr/share/icons/hicolor/scalable/apps/clipit-trayicon.svg"><action name="Execute"><command><![CDATA[clipit]]></command>
+</action></item>
+<item label="Disks" icon="/usr/share/icons/hicolor/16x16/apps/gnome-disks.png"><action name="Execute"><command><![CDATA[gnome-disks]]></command>
+</action></item>
+<item label="Galculator" icon="/usr/share/icons/hicolor/scalable/apps/galculator.svg"><action name="Execute"><command><![CDATA[galculator]]></command>
+</action></item>
+<item label="Gscriptor" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[gscriptor]]></command>
+</action></item>
+<item label="GVim" icon="/usr/share/icons/hicolor/scalable/apps/gvim.svg"><action name="Execute"><command><![CDATA[gvim -f]]></command>
+</action></item>
+<item label="Image Viewer" icon="/usr/share/icons/hicolor/48x48/apps/gpicview.png"><action name="Execute"><command><![CDATA[gpicview]]></command>
+</action></item>
+<item label="Leafpad" icon="/usr/share/icons/hicolor/16x16/apps/leafpad.png"><action name="Execute"><command><![CDATA[leafpad]]></command>
+</action></item>
+<item label="Midnight Commander editor" icon="/usr/share/icons/hicolor/64x64/apps/MidnightCommander.png"><action name="Execute"><command><![CDATA[xterm -e mcedit]]></command>
+</action></item>
+<item label="Vim" icon="/usr/share/icons/hicolor/scalable/apps/gvim.svg"><action name="Execute"><command><![CDATA[xterm -e vim]]></command>
+</action></item>
+<item label="Xarchiver" icon="/usr/share/icons/hicolor/16x16/apps/xarchiver.png"><action name="Execute"><command><![CDATA[xarchiver]]></command>
+</action></item>
+<item label="Zim Desktop Wiki" icon="/usr/share/icons/hicolor/16x16/apps/zim.png"><action name="Execute"><command><![CDATA[zim]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Graphics" label="Graphics" icon="/usr/share/icons/nuoveXT2/16x16/categories/applications-graphics.png">
+<item label="Document Viewer" icon="/usr/share/icons/hicolor/16x16/apps/evince.png"><action name="Execute"><command><![CDATA[evince]]></command>
+</action></item>
+<item label="ImageMagick (color depth=q16)" icon="/usr/share/icons/gnome/16x16/devices/display.png"><action name="Execute"><command><![CDATA[/usr/bin/display-im6.q16 -nostdin]]></command>
+</action></item>
+<item label="xpdf" icon="/usr/share/icons/hicolor/scalable/apps/xpdf.svg"><action name="Execute"><command><![CDATA[xpdf]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Internet" label="Internet" icon="/usr/share/icons/nuoveXT2/16x16/categories/applications-internet.png">
+<item label="Deluge" icon="/usr/share/icons/hicolor/16x16/apps/deluge.png"><action name="Execute"><command><![CDATA[deluge-gtk]]></command>
+</action></item>
+<item label="Ettercap" icon="/usr/share/pixmaps/ettercap.svg"><action name="Execute"><command><![CDATA[ettercap-pkexec -G]]></command>
+</action></item>
+<item label="Firefox ESR" icon="/usr/share/icons/nuoveXT2/16x16/apps/firefox.png"><action name="Execute"><command><![CDATA[/usr/lib/firefox-esr/firefox-esr]]></command>
+</action></item>
+<item label="King Phisher" icon="/usr/share/icons/hicolor/scalable/apps/king-phisher-icon.svg"><action name="Execute"><command><![CDATA[xterm -e /usr/bin/python3 /usr/share/king-phisher/KingPhisher]]></command>
+</action></item>
+<item label="Wicd Network Manager" icon="/usr/share/icons/hicolor/16x16/apps/wicd-gtk.png"><action name="Execute"><command><![CDATA[wicd-gtk --no-tray]]></command>
+</action></item>
+<item label="Wireshark" icon="/usr/share/icons/hicolor/scalable/apps/wireshark.svg"><action name="Execute"><command><![CDATA[wireshark]]></command>
+</action></item>
+<item label="Zenmap" icon="/usr/share/zenmap/pixmaps/zenmap.png"><action name="Execute"><command><![CDATA[zenmap]]></command>
+</action></item>
+<item label="Zenmap (as root)" icon="/usr/share/zenmap/pixmaps/zenmap.png"><action name="Execute"><command><![CDATA[su-to-root -X -c zenmap]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Office" label="Office" icon="/usr/share/icons/nuoveXT2/16x16/categories/applications-office.png">
+<item label="Document Viewer" icon="/usr/share/icons/hicolor/16x16/apps/evince.png"><action name="Execute"><command><![CDATA[evince]]></command>
+</action></item>
+<item label="KeepNote" icon="/usr/share/icons/hicolor/48x48/apps/keepnote.png"><action name="Execute"><command><![CDATA[keepnote]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Other" label="Other" icon="/usr/share/icons/gnome/16x16/categories/applications-other.png">
+<item label="Spectrum Tool" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[spectool_gtk]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Development" label="Programming" icon="/usr/share/icons/nuoveXT2/16x16/categories/applications-development.png">
+<item label="Atom" icon="/usr/share/pixmaps/atom.png"><action name="Execute"><command><![CDATA[/usr/share/atom/atom]]></command>
+</action></item>
+<item label="PyCrust" icon="/usr/share/pixmaps/PyCrust.xpm"><action name="Execute"><command><![CDATA[pycrust]]></command>
+</action></item>
+<item label="Qt 4 Designer" icon="/usr/share/pixmaps/designer-qt4.png"><action name="Execute"><command><![CDATA[/usr/bin/designer-qt4]]></command>
+</action></item>
+<item label="SQLite database browser" icon="/usr/share/icons/hicolor/256x256/apps/sqlitebrowser.png"><action name="Execute"><command><![CDATA[sqlitebrowser]]></command>
+</action></item>
+<item label="XRCed" icon="/usr/share/pixmaps/XRCed.xpm"><action name="Execute"><command><![CDATA[xrced]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Multimedia" label="Sound &amp; Video" icon="/usr/share/icons/nuoveXT2/16x16/categories/applications-multimedia.png">
+<item label="LXMusic simple music player" icon="/usr/share/pixmaps/lxmusic.png"><action name="Execute"><command><![CDATA[lxmusic]]></command>
+</action></item>
+<item label="mpv Media Player" icon="/usr/share/icons/hicolor/16x16/apps/mpv.png"><action name="Execute"><command><![CDATA[mpv --player-operation-mode=pseudo-gui --]]></command>
+</action></item>
+<item label="PulseAudio Volume Control" icon="/usr/share/icons/gnome/16x16/apps/multimedia-volume-control.png"><action name="Execute"><command><![CDATA[pavucontrol]]></command>
+</action></item>
+<item label="SMPlayer" icon="/usr/share/icons/hicolor/16x16/apps/smplayer.png"><action name="Execute"><command><![CDATA[smplayer]]></command>
+</action></item>
+</menu>
+<menu id="openbox-System" label="System Tools" icon="/usr/share/icons/nuoveXT2/16x16/categories/applications-system.png">
+<item label="dconf Editor" icon="/usr/share/icons/hicolor/16x16/apps/dconf-editor.png"><action name="Execute"><command><![CDATA[dconf-editor]]></command>
+</action></item>
+<item label="Disk Management" icon="/usr/share/pixmaps/disks.png"><action name="Execute"><command><![CDATA[usermount]]></command>
+</action></item>
+<item label="File Manager PCManFM" icon="/usr/share/icons/nuoveXT2/16x16/apps/system-file-manager.png"><action name="Execute"><command><![CDATA[pcmanfm]]></command>
+</action></item>
+<item label="Guymager" icon="/usr/share/pixmaps/guymager_128.png"><action name="Execute"><command><![CDATA[gksudo guymager]]></command>
+</action></item>
+<item label="LXTerminal" icon="/usr/share/icons/hicolor/128x128/apps/lxterminal.png"><action name="Execute"><command><![CDATA[lxterminal]]></command>
+</action></item>
+<item label="Lynis auditing tool" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[xterm -e su-to-root -c '/usr/sbin/lynis audit system --no-colors']]></command>
+</action></item>
+<item label="Midnight Commander" icon="/usr/share/icons/hicolor/64x64/apps/MidnightCommander.png"><action name="Execute"><command><![CDATA[xterm -e mc]]></command>
+</action></item>
+<item label="Ophcrack" icon="/usr/share/pixmaps/ophcrack.xpm"><action name="Execute"><command><![CDATA[ophcrack]]></command>
+</action></item>
+<item label="Reportbug" icon="/usr/share/icons/gnome/16x16/places/debian-swirl.png"><action name="Execute"><command><![CDATA[reportbug --exit-prompt --ui gtk2]]></command>
+</action></item>
+<item label="Root Terminal" icon="/usr/share/pixmaps/gksu-root-terminal.png"><action name="Execute"><command><![CDATA[gksu /usr/bin/x-terminal-emulator]]></command>
+</action></item>
+<item label="Task Manager" icon="/usr/share/icons/nuoveXT2/16x16/apps/utilities-system-monitor.png"><action name="Execute"><command><![CDATA[lxtask]]></command>
+</action></item>
+<item label="Termit" icon="/usr/share/icons/nuoveXT2/16x16/apps/utilities-terminal.png"><action name="Execute"><command><![CDATA[termit]]></command>
+</action></item>
+<item label="UXTerm" icon="/usr/share/icons/hicolor/scalable/apps/xterm-color.svg"><action name="Execute"><command><![CDATA[uxterm]]></command>
+</action></item>
+<item label="VirtualBox" icon="/usr/share/icons/hicolor/16x16/apps/virtualbox.png"><action name="Execute"><command><![CDATA[VirtualBox]]></command>
+</action></item>
+<item label="XTerm" icon="/usr/share/icons/hicolor/scalable/apps/xterm-color.svg"><action name="Execute"><command><![CDATA[xterm]]></command>
+</action></item>
+</menu>
+<menu id="openbox-Universal Access" label="Universal Access" icon="/usr/share/icons/nuoveXT2/16x16/apps/preferences-desktop-accessibility.png">
+<item label="Florence Virtual Keyboard" icon="/usr/share/pixmaps/florence.svg"><action name="Execute"><command><![CDATA[florence]]></command>
+</action></item>
+</menu>
+</menu>
+<separator />
+<menu id="openbox-DesktopSettings" label="Preferences" icon="/usr/share/icons/nuoveXT2/16x16/categories/preferences-desktop.png">
+<item label="About Myself" icon="/usr/share/pixmaps/user_icon.png"><action name="Execute"><command><![CDATA[userinfo]]></command>
+</action></item>
+<item label="Default applications for LXSession" icon="/usr/share/icons/nuoveXT2/16x16/categories/preferences-desktop.png"><action name="Execute"><command><![CDATA[lxsession-default-apps]]></command>
+</action></item>
+<item label="Desktop Session Settings" icon="/usr/share/icons/nuoveXT2/16x16/categories/preferences-desktop.png"><action name="Execute"><command><![CDATA[lxsession-edit]]></command>
+</action></item>
+<item label="GParted" icon="/usr/share/icons/hicolor/16x16/apps/gparted.png"><action name="Execute"><command><![CDATA[gparted-pkexec]]></command>
+</action></item>
+<item label="IcedTea Web Control Panel" icon="/usr/share/icons/hicolor/16x16/apps/javaws.png"><action name="Execute"><command><![CDATA[/usr/bin/itweb-settings]]></command>
+</action></item>
+<item label="Network" icon="/usr/share/icons/gnome/16x16/categories/preferences-system-network.png"><action name="Execute"><command><![CDATA[network-admin]]></command>
+</action></item>
+<item label="Openbox Configuration Manager" icon="/usr/share/pixmaps/obconf.png"><action name="Execute"><command><![CDATA[obconf]]></command>
+</action></item>
+<item label="OpenJDK Java 8 Policy Tool" icon="/usr/share/icons/hicolor/16x16/apps/openjdk-8.png"><action name="Execute"><command><![CDATA[/usr/bin/policytool]]></command>
+</action></item>
+<item label="Password" icon="/usr/share/pixmaps/password.png"><action name="Execute"><command><![CDATA[userpasswd]]></command>
+</action></item>
+<item label="Screensaver" icon="/usr/share/icons/nuoveXT2/16x16/apps/xscreensaver.png"><action name="Execute"><command><![CDATA[xscreensaver-demo]]></command>
+</action></item>
+<item label="Services" icon="/usr/share/icons/nuoveXT2/16x16/places/network-server.png"><action name="Execute"><command><![CDATA[services-admin]]></command>
+</action></item>
+<item label="TeXdoctk" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/empty.png"><action name="Execute"><command><![CDATA[texdoctk]]></command>
+</action></item>
+<item label="Time and Date" icon="/usr/share/icons/hicolor/16x16/apps/time-admin.png"><action name="Execute"><command><![CDATA[time-admin]]></command>
+</action></item>
+<item label="Users and Groups" icon="/usr/share/icons/nuoveXT2/16x16/apps/config-users.png"><action name="Execute"><command><![CDATA[users-admin]]></command>
+</action></item>
+</menu>
+</openbox_pipe_menu>

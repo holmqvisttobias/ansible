@@ -1,0 +1,2 @@
+apt-get install -y zathura conky terminator irssi newsbeuter gmrun virtualbox \
+tightvncserver autocutsel

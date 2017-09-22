@@ -1,0 +1,12 @@
+127.0.0.1	localhost
+192.168.1.1     fry.lan        fry
+192.168.1.10    bender.lan     bender
+
+192.168.1.120   tobias.lan     tobias
+192.168.1.124   chromecast.lan chromecast
+192.168.1.125   nethunter.lan  nethunter
+
+# The following lines are desirable for IPv6 capable hosts
+::1     localhost ip6-localhost ip6-loopback
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
