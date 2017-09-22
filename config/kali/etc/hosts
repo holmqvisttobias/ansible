@@ -5,6 +5,8 @@
 192.168.1.120   tobias.lan     tobias
 192.168.1.124   chromecast.lan chromecast
 192.168.1.125   nethunter.lan  nethunter
+192.168.1.228   worker.lan     worker
+
 
 # The following lines are desirable for IPv6 capable hosts
 ::1     localhost ip6-localhost ip6-loopback
